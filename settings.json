@@ -1,0 +1,8 @@
+{
+  "java.project.referencedLibraries": [
+    "sqlite-jdbc-3.44.1.0.jar"
+  ],
+  "java.project.sourcePaths": [""],
+  "java.project.binPath": "${workspaceFolder}",
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

@@ -1,0 +1,57 @@
++--------------------------------+
+|           <<Class>>             |
+|            Cliente              |
++--------------------------------|
+| - nome: String                  |
+| - cpf: String                   |
++--------------------------------+
+| + Cliente(nome: String, cpf: String) |
+| + getNome(): String             |
+| + getCpf(): String              |
++--------------------------------+
+
++--------------------------------+
+|           <<Class>>             |
+|             Loja                |
++--------------------------------|
+| - URL: String                   |
++--------------------------------+
+| + criarTabelas(): void          |
+| + adicionarCliente(cliente: Cliente): void |
+| + consultarClientes(): List<Cliente> |
+| + adicionarSapato(sapato: Sapato): void |
+| + consultarSapatos(): List<Sapato> |
++--------------------------------+
+
++--------------------------------+
+|           <<Class>>             |
+|             Sapato              |
++--------------------------------|
+| - marca: String                 |
+| - tamanho: int                  |
+| - preco: double                 |
++--------------------------------+
+| + Sapato(marca: String, tamanho: int, preco: double) |
+| + getMarca(): String            |
+| + getTamanho(): int             |
+| + getPreco(): double            |
++--------------------------------+
+
++--------------------------------+
+|           <<Class>>             |
+|             Menu                |
++--------------------------------+
++ exibirMenu(): void              |
++ obterOpcao(): int                |
++--------------------------------+
+
++--------------------------------+
+|           <<Class>>             |
+|             Main                |
++--------------------------------+
++ main(args: String[]): void       |
+- cadastrarCliente(): void         |
+- consultarClientes(): void        |
+- cadastrarSapato(): void          |
+- consultarSapatos(): void         |
++--------------------------------+
